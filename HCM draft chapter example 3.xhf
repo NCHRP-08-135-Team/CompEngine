@@ -1,0 +1,279 @@
+<?xml version="1.0"?>
+<ProjectData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FacilityLabel>Highway Facility</FacilityLabel>
+  <AnalysisModule>HighwayFacility</AnalysisModule>
+  <Mode>HCM2010</Mode>
+  <FileName>X:\OneDrive\Software Projects\HCM-CALC\_DataFiles\HCM\TwoLaneFacility\HCM draft chapter example 3.xhf</FileName>
+  <AnalDate>0001-01-01T00:00:00</AnalDate>
+  <Agency />
+  <ExcludeFirstSegmentFromResults>false</ExcludeFirstSegmentFromResults>
+  <DiagnosticsOutput>false</DiagnosticsOutput>
+  <NumFacilities>0</NumFacilities>
+  <Highway>
+    <Period>AMPeak</Period>
+    <TotalInts>0</TotalInts>
+    <TotalSegs>5</TotalSegs>
+    <TotalTimePeriods>0</TotalTimePeriods>
+    <TimePeriodDurationMinutes>0</TimePeriodDurationMinutes>
+    <LengthMiles>5.5</LengthMiles>
+    <Dfactor>0</Dfactor>
+    <Kfactor>0</Kfactor>
+    <EnteringMainlineDemandVeh>
+      <float>0</float>
+      <float>0</float>
+    </EnteringMainlineDemandVeh>
+    <PHF>1</PHF>
+    <PctHeavyVeh>
+      <float>0</float>
+      <float>0</float>
+    </PctHeavyVeh>
+    <DemandAdjFact>1</DemandAdjFact>
+    <LocAdjFactor>0</LocAdjFactor>
+    <BaseCapacity>1700</BaseCapacity>
+    <AdjCapacity>0</AdjCapacity>
+    <LosMOE>Density</LosMOE>
+    <Sections />
+    <Segments>
+      <HighwaySegmentData xsi:type="SegmentDataTwoLaneHwy" ID="1">
+        <Type>TwoLaneHwy</Type>
+        <Info>
+          <From />
+          <To />
+          <Period>AMPeak</Period>
+          <FromNode>0</FromNode>
+          <ToNode>0</ToNode>
+        </Info>
+        <NumDirThruLanes>0</NumDirThruLanes>
+        <PostSpeedMiHr>55</PostSpeedMiHr>
+        <LengthFt>3960</LengthFt>
+        <LengthMiles>0.75</LengthMiles>
+        <GradePct>0</GradePct>
+        <Traffic>
+          <TrafficInputData DIR="AnalysisDir">
+            <DemandVehHr>850</DemandVehHr>
+            <DemandAdjFact>1</DemandAdjFact>
+            <PeakHourFactor>0.94</PeakHourFactor>
+            <TruckPct>8</TruckPct>
+            <RvPct>0</RvPct>
+            <PctLT>0</PctLT>
+            <PctRT>0</PctRT>
+            <PTXL>0</PTXL>
+          </TrafficInputData>
+          <TrafficInputData DIR="OpposingDir">
+            <DemandVehHr>525</DemandVehHr>
+            <DemandAdjFact>1</DemandAdjFact>
+            <PeakHourFactor>0.94</PeakHourFactor>
+            <TruckPct>5</TruckPct>
+            <RvPct>0</RvPct>
+            <PctLT>0</PctLT>
+            <PctRT>0</PctRT>
+            <PTXL>0</PTXL>
+          </TrafficInputData>
+        </Traffic>
+        <DFactor>0</DFactor>
+        <KFactor>0</KFactor>
+        <DriverPopulationFact>0</DriverPopulationFact>
+        <TwoLaneSegType>PassingConstrained</TwoLaneSegType>
+        <HeadingAngle>0</HeadingAngle>
+        <ConsiderHorizontalCurvature>false</ConsiderHorizontalCurvature>
+        <HorizAlign>Tangent</HorizAlign>
+        <HorizCurves />
+        <PassingOncomingDir>AllowedDirection1</PassingOncomingDir>
+        <PassingLaneDir>None</PassingLaneDir>
+        <PassingLaneRule>None</PassingLaneRule>
+      </HighwaySegmentData>
+      <HighwaySegmentData xsi:type="SegmentDataTwoLaneHwy" ID="2">
+        <Type>TwoLaneHwy</Type>
+        <Info>
+          <From />
+          <To />
+          <Period>AMPeak</Period>
+          <FromNode>0</FromNode>
+          <ToNode>0</ToNode>
+        </Info>
+        <NumDirThruLanes>0</NumDirThruLanes>
+        <PostSpeedMiHr>55</PostSpeedMiHr>
+        <LengthFt>7920</LengthFt>
+        <LengthMiles>1.5</LengthMiles>
+        <GradePct>0</GradePct>
+        <Traffic>
+          <TrafficInputData DIR="AnalysisDir">
+            <DemandVehHr>825</DemandVehHr>
+            <DemandAdjFact>1</DemandAdjFact>
+            <PeakHourFactor>0.95</PeakHourFactor>
+            <TruckPct>8</TruckPct>
+            <RvPct>0</RvPct>
+            <PctLT>0</PctLT>
+            <PctRT>0</PctRT>
+            <PTXL>0</PTXL>
+          </TrafficInputData>
+          <TrafficInputData DIR="OpposingDir">
+            <DemandVehHr>525</DemandVehHr>
+            <DemandAdjFact>1</DemandAdjFact>
+            <PeakHourFactor>0.95</PeakHourFactor>
+            <TruckPct>5</TruckPct>
+            <RvPct>0</RvPct>
+            <PctLT>0</PctLT>
+            <PctRT>0</PctRT>
+            <PTXL>0</PTXL>
+          </TrafficInputData>
+        </Traffic>
+        <DFactor>0</DFactor>
+        <KFactor>0</KFactor>
+        <DriverPopulationFact>0</DriverPopulationFact>
+        <TwoLaneSegType>PassingLane</TwoLaneSegType>
+        <HeadingAngle>0</HeadingAngle>
+        <ConsiderHorizontalCurvature>false</ConsiderHorizontalCurvature>
+        <HorizAlign>Tangent</HorizAlign>
+        <HorizCurves />
+        <PassingOncomingDir>AllowedDirection1</PassingOncomingDir>
+        <PassingLaneDir>None</PassingLaneDir>
+        <PassingLaneRule>None</PassingLaneRule>
+      </HighwaySegmentData>
+      <HighwaySegmentData xsi:type="SegmentDataTwoLaneHwy" ID="3">
+        <Type>TwoLaneHwy</Type>
+        <Info>
+          <From />
+          <To />
+          <Period>AMPeak</Period>
+          <FromNode>0</FromNode>
+          <ToNode>0</ToNode>
+        </Info>
+        <NumDirThruLanes>0</NumDirThruLanes>
+        <PostSpeedMiHr>55</PostSpeedMiHr>
+        <LengthFt>5280</LengthFt>
+        <LengthMiles>1</LengthMiles>
+        <GradePct>0</GradePct>
+        <Traffic>
+          <TrafficInputData DIR="AnalysisDir">
+            <DemandVehHr>820</DemandVehHr>
+            <DemandAdjFact>1</DemandAdjFact>
+            <PeakHourFactor>0.95</PeakHourFactor>
+            <TruckPct>8</TruckPct>
+            <RvPct>0</RvPct>
+            <PctLT>0</PctLT>
+            <PctRT>0</PctRT>
+            <PTXL>0</PTXL>
+          </TrafficInputData>
+          <TrafficInputData DIR="OpposingDir">
+            <DemandVehHr>510</DemandVehHr>
+            <DemandAdjFact>1</DemandAdjFact>
+            <PeakHourFactor>0.95</PeakHourFactor>
+            <TruckPct>5</TruckPct>
+            <RvPct>0</RvPct>
+            <PctLT>0</PctLT>
+            <PctRT>0</PctRT>
+            <PTXL>0</PTXL>
+          </TrafficInputData>
+        </Traffic>
+        <DFactor>0</DFactor>
+        <KFactor>0</KFactor>
+        <DriverPopulationFact>0</DriverPopulationFact>
+        <TwoLaneSegType>PassingConstrained</TwoLaneSegType>
+        <HeadingAngle>0</HeadingAngle>
+        <ConsiderHorizontalCurvature>false</ConsiderHorizontalCurvature>
+        <HorizAlign>Tangent</HorizAlign>
+        <HorizCurves />
+        <PassingOncomingDir>AllowedDirection1</PassingOncomingDir>
+        <PassingLaneDir>None</PassingLaneDir>
+        <PassingLaneRule>None</PassingLaneRule>
+      </HighwaySegmentData>
+      <HighwaySegmentData xsi:type="SegmentDataTwoLaneHwy" ID="4">
+        <Type>TwoLaneHwy</Type>
+        <Info>
+          <From />
+          <To />
+          <Period>AMPeak</Period>
+          <FromNode>0</FromNode>
+          <ToNode>0</ToNode>
+        </Info>
+        <NumDirThruLanes>0</NumDirThruLanes>
+        <PostSpeedMiHr>55</PostSpeedMiHr>
+        <LengthFt>2640</LengthFt>
+        <LengthMiles>0.5</LengthMiles>
+        <GradePct>0</GradePct>
+        <Traffic>
+          <TrafficInputData DIR="AnalysisDir">
+            <DemandVehHr>800</DemandVehHr>
+            <DemandAdjFact>1</DemandAdjFact>
+            <PeakHourFactor>0.94</PeakHourFactor>
+            <TruckPct>7.5</TruckPct>
+            <RvPct>0</RvPct>
+            <PctLT>0</PctLT>
+            <PctRT>0</PctRT>
+            <PTXL>0</PTXL>
+          </TrafficInputData>
+          <TrafficInputData DIR="OpposingDir">
+            <DemandVehHr>500</DemandVehHr>
+            <DemandAdjFact>1</DemandAdjFact>
+            <PeakHourFactor>0.94</PeakHourFactor>
+            <TruckPct>5</TruckPct>
+            <RvPct>0</RvPct>
+            <PctLT>0</PctLT>
+            <PctRT>0</PctRT>
+            <PTXL>0</PTXL>
+          </TrafficInputData>
+        </Traffic>
+        <DFactor>0</DFactor>
+        <KFactor>0</KFactor>
+        <DriverPopulationFact>0</DriverPopulationFact>
+        <TwoLaneSegType>PassingZone</TwoLaneSegType>
+        <HeadingAngle>0</HeadingAngle>
+        <ConsiderHorizontalCurvature>false</ConsiderHorizontalCurvature>
+        <HorizAlign>Tangent</HorizAlign>
+        <HorizCurves />
+        <PassingOncomingDir>AllowedDirection1</PassingOncomingDir>
+        <PassingLaneDir>None</PassingLaneDir>
+        <PassingLaneRule>None</PassingLaneRule>
+      </HighwaySegmentData>
+      <HighwaySegmentData xsi:type="SegmentDataTwoLaneHwy" ID="5">
+        <Type>TwoLaneHwy</Type>
+        <Info>
+          <From />
+          <To />
+          <Period>AMPeak</Period>
+          <FromNode>0</FromNode>
+          <ToNode>0</ToNode>
+        </Info>
+        <NumDirThruLanes>0</NumDirThruLanes>
+        <PostSpeedMiHr>55</PostSpeedMiHr>
+        <LengthFt>9240</LengthFt>
+        <LengthMiles>1.75</LengthMiles>
+        <GradePct>0</GradePct>
+        <Traffic>
+          <TrafficInputData DIR="AnalysisDir">
+            <DemandVehHr>795</DemandVehHr>
+            <DemandAdjFact>1</DemandAdjFact>
+            <PeakHourFactor>0.935</PeakHourFactor>
+            <TruckPct>8</TruckPct>
+            <RvPct>0</RvPct>
+            <PctLT>0</PctLT>
+            <PctRT>0</PctRT>
+            <PTXL>0</PTXL>
+          </TrafficInputData>
+          <TrafficInputData DIR="OpposingDir">
+            <DemandVehHr>490</DemandVehHr>
+            <DemandAdjFact>1</DemandAdjFact>
+            <PeakHourFactor>0.935</PeakHourFactor>
+            <TruckPct>5.5</TruckPct>
+            <RvPct>0</RvPct>
+            <PctLT>0</PctLT>
+            <PctRT>0</PctRT>
+            <PTXL>0</PTXL>
+          </TrafficInputData>
+        </Traffic>
+        <DFactor>0</DFactor>
+        <KFactor>0</KFactor>
+        <DriverPopulationFact>0</DriverPopulationFact>
+        <TwoLaneSegType>PassingConstrained</TwoLaneSegType>
+        <HeadingAngle>0</HeadingAngle>
+        <ConsiderHorizontalCurvature>false</ConsiderHorizontalCurvature>
+        <HorizAlign>Tangent</HorizAlign>
+        <HorizCurves />
+        <PassingOncomingDir>AllowedDirection1</PassingOncomingDir>
+        <PassingLaneDir>None</PassingLaneDir>
+        <PassingLaneRule>None</PassingLaneRule>
+      </HighwaySegmentData>
+    </Segments>
+  </Highway>
+</ProjectData>
