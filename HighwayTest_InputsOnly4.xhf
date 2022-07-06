@@ -107,8 +107,8 @@
       <HighwaySegmentData xsi:type="SegmentDataMultilaneHwy" ID="1">
         <Type>MultilaneHwy</Type>
         <Info>
-          <From />
-          <To />
+          <From>Maple St</From>
+          <To>Oak St</To>
           <Period>AMPeak</Period>
           <FromNode>0</FromNode>
           <ToNode>0</ToNode>
@@ -120,6 +120,7 @@
         <LengthFt>5280</LengthFt>
         <LengthMiles>1</LengthMiles>
         <GradePct>2</GradePct>
+        <VerticalAlignClass>0</VerticalAlignClass>
         <Traffic>
           <TrafficInputData DIR="AnalysisDir">
             <DemandVehHr>1100</DemandVehHr>
@@ -140,7 +141,7 @@
         </Traffic>
         <DFactor>0</DFactor>
         <KFactor>0</KFactor>
-        <DriverPopulationFact>0</DriverPopulationFact>
+        <DriverPopulationFact>1</DriverPopulationFact>
         <Terrain>Level</Terrain>
         <CompGrade />
         <FFSmethod>Estimated</FFSmethod>
@@ -150,24 +151,24 @@
           <LateralClearRightFt>6</LateralClearRightFt>
           <LateralClearTotalFt>12</LateralClearTotalFt>
           <MedianType>Divided</MedianType>
-          <AccessPoints>0</AccessPoints>
+          <AccessPoints>4</AccessPoints>
           <FreeFlowSpeedBaseMiHr>60</FreeFlowSpeedBaseMiHr>
-          <FreeFlowSpeedEstCalc>0</FreeFlowSpeedEstCalc>
-          <FreeFlowSpeedEstRound>0</FreeFlowSpeedEstRound>
+          <FreeFlowSpeedEstCalc>59</FreeFlowSpeedEstCalc>
+          <FreeFlowSpeedEstRound>60</FreeFlowSpeedEstRound>
           <LaneWidthAdjValue>0</LaneWidthAdjValue>
           <LateralClearAdjValue>0</LateralClearAdjValue>
           <MedianAdjValue>0</MedianAdjValue>
-          <AccessDensityAdjValue>0</AccessDensityAdjValue>
+          <AccessDensityAdjValue>1</AccessDensityAdjValue>
         </FFSestParms>
         <FFSpeedAdjFactor>1</FFSpeedAdjFactor>
         <CapacityAdjFact>1</CapacityAdjFact>
         <SpeedFlowCurveParms>
-          <FreeFlowSpeed>60</FreeFlowSpeed>
+          <FreeFlowSpeed>59</FreeFlowSpeed>
           <FFSadjFact>1</FFSadjFact>
-          <FreeFlowSpeedAdjusted>60</FreeFlowSpeedAdjusted>
-          <CapacityBase>2200</CapacityBase>
+          <FreeFlowSpeedAdjusted>59</FreeFlowSpeedAdjusted>
+          <CapacityBase>2180</CapacityBase>
           <CapAdjFact>1</CapAdjFact>
-          <CapacityAdjusted>2200</CapacityAdjusted>
+          <CapacityAdjusted>2180</CapacityAdjusted>
           <BreakPoint>1400</BreakPoint>
           <Exponent>1.31</Exponent>
           <DensityAtCapacity>45</DensityAtCapacity>
@@ -189,14 +190,15 @@
         <IntxDownstreamDistFt>0</IntxDownstreamDistFt>
         <LengthFt>5280</LengthFt>
         <LengthMiles>1</LengthMiles>
-        <GradePct>0</GradePct>
+        <GradePct>1</GradePct>
+        <VerticalAlignClass>0</VerticalAlignClass>
         <Traffic>
           <TrafficInputData DIR="AnalysisDir">
             <DemandVehHr>1100</DemandVehHr>
             <DemandAdjFact>1</DemandAdjFact>
             <PeakHourFactor>0.95</PeakHourFactor>
-            <PctTrucks>5</PctTrucks>
-            <PctRVs>0</PctRVs>
+            <PctTrucks>2</PctTrucks>
+            <PctRVs>3</PctRVs>
             <DemandThruVeh>2000</DemandThruVeh>
             <DemandLeftVeh>0</DemandLeftVeh>
             <DemandRightVeh>0</DemandRightVeh>
@@ -220,24 +222,24 @@
           <LateralClearRightFt>6</LateralClearRightFt>
           <LateralClearTotalFt>12</LateralClearTotalFt>
           <MedianType>Divided</MedianType>
-          <AccessPoints>10</AccessPoints>
-          <FreeFlowSpeedBaseMiHr>55</FreeFlowSpeedBaseMiHr>
-          <FreeFlowSpeedEstCalc>52.5</FreeFlowSpeedEstCalc>
-          <FreeFlowSpeedEstRound>55</FreeFlowSpeedEstRound>
+          <AccessPoints>4</AccessPoints>
+          <FreeFlowSpeedBaseMiHr>60</FreeFlowSpeedBaseMiHr>
+          <FreeFlowSpeedEstCalc>59</FreeFlowSpeedEstCalc>
+          <FreeFlowSpeedEstRound>60</FreeFlowSpeedEstRound>
           <LaneWidthAdjValue>0</LaneWidthAdjValue>
           <LateralClearAdjValue>0</LateralClearAdjValue>
           <MedianAdjValue>0</MedianAdjValue>
-          <AccessDensityAdjValue>2.5</AccessDensityAdjValue>
+          <AccessDensityAdjValue>1</AccessDensityAdjValue>
         </FFSestParms>
         <FFSpeedAdjFactor>1</FFSpeedAdjFactor>
         <CapacityAdjFact>1</CapacityAdjFact>
         <SpeedFlowCurveParms>
-          <FreeFlowSpeed>52.5</FreeFlowSpeed>
+          <FreeFlowSpeed>59</FreeFlowSpeed>
           <FFSadjFact>1</FFSadjFact>
-          <FreeFlowSpeedAdjusted>52.5</FreeFlowSpeedAdjusted>
-          <CapacityBase>2050</CapacityBase>
+          <FreeFlowSpeedAdjusted>59</FreeFlowSpeedAdjusted>
+          <CapacityBase>2180</CapacityBase>
           <CapAdjFact>1</CapAdjFact>
-          <CapacityAdjusted>2050</CapacityAdjusted>
+          <CapacityAdjusted>2180</CapacityAdjusted>
           <BreakPoint>1400</BreakPoint>
           <Exponent>1.31</Exponent>
           <DensityAtCapacity>45</DensityAtCapacity>
@@ -261,22 +263,23 @@
         <LengthFt>1750</LengthFt>
         <LengthMiles>0.3314394</LengthMiles>
         <GradePct>0</GradePct>
+        <VerticalAlignClass>0</VerticalAlignClass>
         <Traffic>
           <TrafficInputData DIR="AnalysisDir">
-            <DemandVehHr>980</DemandVehHr>
+            <DemandVehHr>1060</DemandVehHr>
             <DemandAdjFact>1</DemandAdjFact>
             <PeakHourFactor>1</PeakHourFactor>
             <PctTrucks>0</PctTrucks>
             <PctRVs>0</PctRVs>
-            <DemandThruVeh>880</DemandThruVeh>
+            <DemandThruVeh>960</DemandThruVeh>
             <DemandLeftVeh>100</DemandLeftVeh>
             <DemandRightVeh>80</DemandRightVeh>
             <DemandUturnVeh>0</DemandUturnVeh>
-            <PctThru>81.63265</PctThru>
-            <PctLeftTurns>10.2040815</PctLeftTurns>
-            <PctRightTurns>8.163265</PctRightTurns>
+            <PctThru>83.01887</PctThru>
+            <PctLeftTurns>9.433962</PctLeftTurns>
+            <PctRightTurns>7.54716969</PctRightTurns>
             <PctUturns>0</PctUturns>
-            <PTXL>10.2040815</PTXL>
+            <PTXL>9.433962</PTXL>
           </TrafficInputData>
         </Traffic>
         <DFactor>0</DFactor>
@@ -293,16 +296,16 @@
           <EffGreen>48</EffGreen>
           <ArvType>4</ArvType>
           <BaseSatFlowPcHrLn>0</BaseSatFlowPcHrLn>
-          <AdjSatFlowVehHrLn>1874.091</AdjSatFlowVehHrLn>
-          <AdjSatFlowVehHr>3748.182</AdjSatFlowVehHr>
-          <CapacityVehHr>1499.27283</CapacityVehHr>
+          <AdjSatFlowVehHrLn>1876.25</AdjSatFlowVehHrLn>
+          <AdjSatFlowVehHr>3752.5</AdjSatFlowVehHr>
+          <CapacityVehHr>1501</CapacityVehHr>
         </SignalTiming>
       </HighwaySegmentData>
       <HighwaySegmentData xsi:type="SegmentDataTwoLaneHwy" ID="4">
         <Type>TwoLaneHwy</Type>
         <Info>
-          <From />
-          <To />
+          <From>Third St</From>
+          <To>Fourth St</To>
           <Period>AMPeak</Period>
           <FromNode>0</FromNode>
           <ToNode>0</ToNode>
@@ -313,13 +316,14 @@
         <IntxDownstreamDistFt>0</IntxDownstreamDistFt>
         <LengthFt>3960</LengthFt>
         <LengthMiles>0.75</LengthMiles>
-        <GradePct>1</GradePct>
+        <GradePct>3</GradePct>
+        <VerticalAlignClass>2</VerticalAlignClass>
         <Traffic>
           <TrafficInputData DIR="AnalysisDir">
             <DemandVehHr>700</DemandVehHr>
             <DemandAdjFact>1</DemandAdjFact>
             <PeakHourFactor>0.95</PeakHourFactor>
-            <PctTrucks>0</PctTrucks>
+            <PctTrucks>3</PctTrucks>
             <PctRVs>0</PctRVs>
             <DemandThruVeh>0</DemandThruVeh>
             <DemandLeftVeh>0</DemandLeftVeh>
@@ -335,7 +339,7 @@
             <DemandVehHr>400</DemandVehHr>
             <DemandAdjFact>1</DemandAdjFact>
             <PeakHourFactor>0.95</PeakHourFactor>
-            <PctTrucks>0</PctTrucks>
+            <PctTrucks>2.5</PctTrucks>
             <PctRVs>0</PctRVs>
             <DemandThruVeh>0</DemandThruVeh>
             <DemandLeftVeh>0</DemandLeftVeh>
@@ -348,7 +352,7 @@
             <PTXL>0</PTXL>
           </TrafficInputData>
         </Traffic>
-        <DFactor>0.5</DFactor>
+        <DFactor>0</DFactor>
         <KFactor>0</KFactor>
         <DriverPopulationFact>0</DriverPopulationFact>
         <TwoLaneSegType>PassingConstrained</TwoLaneSegType>
@@ -387,13 +391,14 @@
         <IntxDownstreamDistFt>0</IntxDownstreamDistFt>
         <LengthFt>5280</LengthFt>
         <LengthMiles>1</LengthMiles>
-        <GradePct>0</GradePct>
+        <GradePct>3</GradePct>
+        <VerticalAlignClass>2</VerticalAlignClass>
         <Traffic>
           <TrafficInputData DIR="AnalysisDir">
             <DemandVehHr>700</DemandVehHr>
             <DemandAdjFact>1</DemandAdjFact>
             <PeakHourFactor>0.95</PeakHourFactor>
-            <PctTrucks>0</PctTrucks>
+            <PctTrucks>3</PctTrucks>
             <PctRVs>0</PctRVs>
             <DemandThruVeh>0</DemandThruVeh>
             <DemandLeftVeh>0</DemandLeftVeh>
@@ -409,7 +414,7 @@
             <DemandVehHr>400</DemandVehHr>
             <DemandAdjFact>1</DemandAdjFact>
             <PeakHourFactor>0.95</PeakHourFactor>
-            <PctTrucks>0</PctTrucks>
+            <PctTrucks>2.5</PctTrucks>
             <PctRVs>0</PctRVs>
             <DemandThruVeh>0</DemandThruVeh>
             <DemandLeftVeh>0</DemandLeftVeh>
@@ -422,7 +427,7 @@
             <PTXL>0</PTXL>
           </TrafficInputData>
         </Traffic>
-        <DFactor>0.6</DFactor>
+        <DFactor>0</DFactor>
         <KFactor>0</KFactor>
         <DriverPopulationFact>0</DriverPopulationFact>
         <TwoLaneSegType>PassingLane</TwoLaneSegType>
@@ -462,6 +467,7 @@
         <LengthFt>6600</LengthFt>
         <LengthMiles>1.25</LengthMiles>
         <GradePct>0</GradePct>
+        <VerticalAlignClass>1</VerticalAlignClass>
         <Traffic>
           <TrafficInputData DIR="AnalysisDir">
             <DemandVehHr>700</DemandVehHr>
@@ -496,7 +502,7 @@
             <PTXL>0</PTXL>
           </TrafficInputData>
         </Traffic>
-        <DFactor>0.6</DFactor>
+        <DFactor>0</DFactor>
         <KFactor>0</KFactor>
         <DriverPopulationFact>0</DriverPopulationFact>
         <TwoLaneSegType>PassingConstrained</TwoLaneSegType>
@@ -536,6 +542,7 @@
         <LengthFt>7920</LengthFt>
         <LengthMiles>1.5</LengthMiles>
         <GradePct>0</GradePct>
+        <VerticalAlignClass>1</VerticalAlignClass>
         <Traffic>
           <TrafficInputData DIR="AnalysisDir">
             <DemandVehHr>700</DemandVehHr>
@@ -570,7 +577,7 @@
             <PTXL>0</PTXL>
           </TrafficInputData>
         </Traffic>
-        <DFactor>0.6</DFactor>
+        <DFactor>0</DFactor>
         <KFactor>0</KFactor>
         <DriverPopulationFact>0</DriverPopulationFact>
         <TwoLaneSegType>PassingZone</TwoLaneSegType>
@@ -611,22 +618,23 @@
         <LengthFt>2000</LengthFt>
         <LengthMiles>0.378787875</LengthMiles>
         <GradePct>0</GradePct>
+        <VerticalAlignClass>0</VerticalAlignClass>
         <Traffic>
           <TrafficInputData DIR="AnalysisDir">
-            <DemandVehHr>775</DemandVehHr>
+            <DemandVehHr>780</DemandVehHr>
             <DemandAdjFact>1</DemandAdjFact>
             <PeakHourFactor>1</PeakHourFactor>
-            <PctTrucks>0</PctTrucks>
+            <PctTrucks>2</PctTrucks>
             <PctRVs>0</PctRVs>
-            <DemandThruVeh>725</DemandThruVeh>
-            <DemandLeftVeh>50</DemandLeftVeh>
-            <DemandRightVeh>75</DemandRightVeh>
+            <DemandThruVeh>700</DemandThruVeh>
+            <DemandLeftVeh>40</DemandLeftVeh>
+            <DemandRightVeh>40</DemandRightVeh>
             <DemandUturnVeh>0</DemandUturnVeh>
-            <PctThru>83.8709641</PctThru>
-            <PctLeftTurns>6.451613</PctLeftTurns>
-            <PctRightTurns>9.67742</PctRightTurns>
+            <PctThru>89.74359</PctThru>
+            <PctLeftTurns>5.1282053</PctLeftTurns>
+            <PctRightTurns>5.1282053</PctRightTurns>
             <PctUturns>0</PctUturns>
-            <PTXL>6.451613</PTXL>
+            <PTXL>0</PTXL>
           </TrafficInputData>
         </Traffic>
         <DFactor>0</DFactor>
@@ -643,9 +651,9 @@
           <EffGreen>48</EffGreen>
           <ArvType>4</ArvType>
           <BaseSatFlowPcHrLn>0</BaseSatFlowPcHrLn>
-          <AdjSatFlowVehHrLn>1870.51721</AdjSatFlowVehHrLn>
-          <AdjSatFlowVehHr>3741.03442</AdjSatFlowVehHr>
-          <CapacityVehHr>1496.41382</CapacityVehHr>
+          <AdjSatFlowVehHrLn>1873.28125</AdjSatFlowVehHrLn>
+          <AdjSatFlowVehHr>3746.5625</AdjSatFlowVehHr>
+          <CapacityVehHr>1498.625</CapacityVehHr>
         </SignalTiming>
       </HighwaySegmentData>
       <HighwaySegmentData xsi:type="SegmentDataMultilaneHwy" ID="9">
@@ -664,9 +672,10 @@
         <LengthFt>10560</LengthFt>
         <LengthMiles>2</LengthMiles>
         <GradePct>2</GradePct>
+        <VerticalAlignClass>0</VerticalAlignClass>
         <Traffic>
           <TrafficInputData DIR="AnalysisDir">
-            <DemandVehHr>800</DemandVehHr>
+            <DemandVehHr>1040</DemandVehHr>
             <DemandAdjFact>1</DemandAdjFact>
             <PeakHourFactor>0.95</PeakHourFactor>
             <PctTrucks>0</PctTrucks>
@@ -694,24 +703,24 @@
           <LateralClearRightFt>6</LateralClearRightFt>
           <LateralClearTotalFt>12</LateralClearTotalFt>
           <MedianType>Divided</MedianType>
-          <AccessPoints>0</AccessPoints>
+          <AccessPoints>2</AccessPoints>
           <FreeFlowSpeedBaseMiHr>60</FreeFlowSpeedBaseMiHr>
-          <FreeFlowSpeedEstCalc>0</FreeFlowSpeedEstCalc>
-          <FreeFlowSpeedEstRound>0</FreeFlowSpeedEstRound>
+          <FreeFlowSpeedEstCalc>59.5</FreeFlowSpeedEstCalc>
+          <FreeFlowSpeedEstRound>60</FreeFlowSpeedEstRound>
           <LaneWidthAdjValue>0</LaneWidthAdjValue>
           <LateralClearAdjValue>0</LateralClearAdjValue>
           <MedianAdjValue>0</MedianAdjValue>
-          <AccessDensityAdjValue>0</AccessDensityAdjValue>
+          <AccessDensityAdjValue>0.5</AccessDensityAdjValue>
         </FFSestParms>
         <FFSpeedAdjFactor>1</FFSpeedAdjFactor>
         <CapacityAdjFact>1</CapacityAdjFact>
         <SpeedFlowCurveParms>
-          <FreeFlowSpeed>60</FreeFlowSpeed>
+          <FreeFlowSpeed>59.5</FreeFlowSpeed>
           <FFSadjFact>1</FFSadjFact>
-          <FreeFlowSpeedAdjusted>60</FreeFlowSpeedAdjusted>
-          <CapacityBase>2200</CapacityBase>
+          <FreeFlowSpeedAdjusted>59.5</FreeFlowSpeedAdjusted>
+          <CapacityBase>2190</CapacityBase>
           <CapAdjFact>1</CapAdjFact>
-          <CapacityAdjusted>2200</CapacityAdjusted>
+          <CapacityAdjusted>2190</CapacityAdjusted>
           <BreakPoint>1400</BreakPoint>
           <Exponent>1.31</Exponent>
           <DensityAtCapacity>45</DensityAtCapacity>
@@ -734,9 +743,10 @@
         <LengthFt>15840</LengthFt>
         <LengthMiles>3</LengthMiles>
         <GradePct>0</GradePct>
+        <VerticalAlignClass>0</VerticalAlignClass>
         <Traffic>
           <TrafficInputData DIR="AnalysisDir">
-            <DemandVehHr>800</DemandVehHr>
+            <DemandVehHr>1040</DemandVehHr>
             <DemandAdjFact>1</DemandAdjFact>
             <PeakHourFactor>0.95</PeakHourFactor>
             <PctTrucks>5</PctTrucks>
@@ -764,24 +774,24 @@
           <LateralClearRightFt>6</LateralClearRightFt>
           <LateralClearTotalFt>12</LateralClearTotalFt>
           <MedianType>Divided</MedianType>
-          <AccessPoints>10</AccessPoints>
-          <FreeFlowSpeedBaseMiHr>55</FreeFlowSpeedBaseMiHr>
-          <FreeFlowSpeedEstCalc>52.5</FreeFlowSpeedEstCalc>
-          <FreeFlowSpeedEstRound>55</FreeFlowSpeedEstRound>
+          <AccessPoints>3</AccessPoints>
+          <FreeFlowSpeedBaseMiHr>60</FreeFlowSpeedBaseMiHr>
+          <FreeFlowSpeedEstCalc>59.2</FreeFlowSpeedEstCalc>
+          <FreeFlowSpeedEstRound>60</FreeFlowSpeedEstRound>
           <LaneWidthAdjValue>0</LaneWidthAdjValue>
           <LateralClearAdjValue>0</LateralClearAdjValue>
           <MedianAdjValue>0</MedianAdjValue>
-          <AccessDensityAdjValue>2.5</AccessDensityAdjValue>
+          <AccessDensityAdjValue>0.8</AccessDensityAdjValue>
         </FFSestParms>
         <FFSpeedAdjFactor>1</FFSpeedAdjFactor>
         <CapacityAdjFact>1</CapacityAdjFact>
         <SpeedFlowCurveParms>
-          <FreeFlowSpeed>52.5</FreeFlowSpeed>
+          <FreeFlowSpeed>59.200000762939453</FreeFlowSpeed>
           <FFSadjFact>1</FFSadjFact>
-          <FreeFlowSpeedAdjusted>52.5</FreeFlowSpeedAdjusted>
-          <CapacityBase>2050</CapacityBase>
+          <FreeFlowSpeedAdjusted>59.200000762939453</FreeFlowSpeedAdjusted>
+          <CapacityBase>2184.0000152587891</CapacityBase>
           <CapAdjFact>1</CapAdjFact>
-          <CapacityAdjusted>2050</CapacityAdjusted>
+          <CapacityAdjusted>2184.0000152587891</CapacityAdjusted>
           <BreakPoint>1400</BreakPoint>
           <Exponent>1.31</Exponent>
           <DensityAtCapacity>45</DensityAtCapacity>
@@ -793,7 +803,7 @@
         <Info>
           <From />
           <To />
-          <CrossStreetName />
+          <CrossStreetName>Oak St</CrossStreetName>
           <Period>AMPeak</Period>
           <FromNode>0</FromNode>
           <ToNode>0</ToNode>
@@ -805,20 +815,21 @@
         <LengthFt>1000</LengthFt>
         <LengthMiles>0.189393938</LengthMiles>
         <GradePct>0</GradePct>
+        <VerticalAlignClass>0</VerticalAlignClass>
         <Traffic>
           <TrafficInputData DIR="AnalysisDir">
-            <DemandVehHr>960</DemandVehHr>
+            <DemandVehHr>1040</DemandVehHr>
             <DemandAdjFact>1</DemandAdjFact>
             <PeakHourFactor>1</PeakHourFactor>
             <PctTrucks>5</PctTrucks>
             <PctRVs>0</PctRVs>
-            <DemandThruVeh>810</DemandThruVeh>
-            <DemandLeftVeh>60</DemandLeftVeh>
-            <DemandRightVeh>90</DemandRightVeh>
+            <DemandThruVeh>720</DemandThruVeh>
+            <DemandLeftVeh>175</DemandLeftVeh>
+            <DemandRightVeh>145</DemandRightVeh>
             <DemandUturnVeh>0</DemandUturnVeh>
-            <PctThru>84.375</PctThru>
-            <PctLeftTurns>6.25</PctLeftTurns>
-            <PctRightTurns>9.375</PctRightTurns>
+            <PctThru>69.23077</PctThru>
+            <PctLeftTurns>16.8269234</PctLeftTurns>
+            <PctRightTurns>13.9423075</PctRightTurns>
             <PctUturns>0</PctUturns>
             <PTXL>0</PTXL>
           </TrafficInputData>
@@ -837,9 +848,9 @@
           <EffGreen>48</EffGreen>
           <ArvType>4</ArvType>
           <BaseSatFlowPcHrLn>1900</BaseSatFlowPcHrLn>
-          <AdjSatFlowVehHrLn>1754.30359</AdjSatFlowVehHrLn>
-          <AdjSatFlowVehHr>1754.30359</AdjSatFlowVehHr>
-          <CapacityVehHr>701.721436</CapacityVehHr>
+          <AdjSatFlowVehHrLn>1759.70972</AdjSatFlowVehHrLn>
+          <AdjSatFlowVehHr>3519.41943</AdjSatFlowVehHr>
+          <CapacityVehHr>1407.76782</CapacityVehHr>
         </SignalTiming>
       </HighwaySegmentData>
       <HighwaySegmentData xsi:type="SegmentDataTwoLaneHwy" ID="12">
@@ -858,9 +869,10 @@
         <LengthFt>5280</LengthFt>
         <LengthMiles>1</LengthMiles>
         <GradePct>2</GradePct>
+        <VerticalAlignClass>1</VerticalAlignClass>
         <Traffic>
           <TrafficInputData DIR="AnalysisDir">
-            <DemandVehHr>600</DemandVehHr>
+            <DemandVehHr>720</DemandVehHr>
             <DemandAdjFact>1</DemandAdjFact>
             <PeakHourFactor>0.95</PeakHourFactor>
             <PctTrucks>5</PctTrucks>
@@ -892,7 +904,7 @@
             <PTXL>0</PTXL>
           </TrafficInputData>
         </Traffic>
-        <DFactor>0.5555556</DFactor>
+        <DFactor>0.5</DFactor>
         <KFactor>0</KFactor>
         <DriverPopulationFact>0</DriverPopulationFact>
         <TwoLaneSegType>PassingConstrained</TwoLaneSegType>
@@ -921,7 +933,7 @@
         <Info>
           <From />
           <To />
-          <CrossStreetName />
+          <CrossStreetName>First Ave</CrossStreetName>
           <Period>AMPeak</Period>
           <FromNode>0</FromNode>
           <ToNode>0</ToNode>
@@ -933,14 +945,15 @@
         <LengthFt>1000</LengthFt>
         <LengthMiles>0.189393938</LengthMiles>
         <GradePct>0</GradePct>
+        <VerticalAlignClass>0</VerticalAlignClass>
         <Traffic>
           <TrafficInputData DIR="AnalysisDir">
-            <DemandVehHr>750</DemandVehHr>
+            <DemandVehHr>720</DemandVehHr>
             <DemandAdjFact>1</DemandAdjFact>
             <PeakHourFactor>0.95</PeakHourFactor>
             <PctTrucks>5</PctTrucks>
             <PctRVs>0</PctRVs>
-            <DemandThruVeh>500</DemandThruVeh>
+            <DemandThruVeh>600</DemandThruVeh>
             <DemandLeftVeh>150</DemandLeftVeh>
             <DemandRightVeh>100</DemandRightVeh>
             <DemandUturnVeh>0</DemandUturnVeh>
@@ -1005,7 +1018,7 @@
                 <Movements>
                   <MovementData>
                     <MvmtDir>Left</MvmtDir>
-                    <DemandVolumeVehHr>150</DemandVolumeVehHr>
+                    <DemandVolumeVehHr>70</DemandVolumeVehHr>
                     <PctHeavyVehicles>5</PctHeavyVehicles>
                     <Results>
                       <DemandAdjVehHr>157.894745</DemandAdjVehHr>
@@ -1015,7 +1028,7 @@
                   </MovementData>
                   <MovementData>
                     <MvmtDir>Thru</MvmtDir>
-                    <DemandVolumeVehHr>500</DemandVolumeVehHr>
+                    <DemandVolumeVehHr>600</DemandVolumeVehHr>
                     <PctHeavyVehicles>5</PctHeavyVehicles>
                     <Results>
                       <DemandAdjVehHr>526.3158</DemandAdjVehHr>
@@ -1025,7 +1038,7 @@
                   </MovementData>
                   <MovementData>
                     <MvmtDir>Right</MvmtDir>
-                    <DemandVolumeVehHr>100</DemandVolumeVehHr>
+                    <DemandVolumeVehHr>50</DemandVolumeVehHr>
                     <PctHeavyVehicles>5</PctHeavyVehicles>
                     <Results>
                       <DemandAdjVehHr>105.263161</DemandAdjVehHr>
@@ -1047,18 +1060,18 @@
                 <SatFlowRateAdjVehPerLanePerSec>0</SatFlowRateAdjVehPerLanePerSec>
                 <SatFlowRateAdjAllLanesVehPerHour>0</SatFlowRateAdjAllLanesVehPerHour>
                 <Traffic DIR="AnalysisDir">
-                  <DemandVehHr>750</DemandVehHr>
+                  <DemandVehHr>720</DemandVehHr>
                   <DemandAdjFact>1</DemandAdjFact>
                   <PeakHourFactor>0.95</PeakHourFactor>
                   <PctTrucks>5</PctTrucks>
                   <PctRVs>0</PctRVs>
-                  <DemandThruVeh>500</DemandThruVeh>
-                  <DemandLeftVeh>150</DemandLeftVeh>
-                  <DemandRightVeh>100</DemandRightVeh>
+                  <DemandThruVeh>600</DemandThruVeh>
+                  <DemandLeftVeh>70</DemandLeftVeh>
+                  <DemandRightVeh>50</DemandRightVeh>
                   <DemandUturnVeh>0</DemandUturnVeh>
-                  <PctThru>66.6666641</PctThru>
-                  <PctLeftTurns>20</PctLeftTurns>
-                  <PctRightTurns>13.333333</PctRightTurns>
+                  <PctThru>83.3333359</PctThru>
+                  <PctLeftTurns>9.722222</PctLeftTurns>
+                  <PctRightTurns>6.94444466</PctRightTurns>
                   <PctUturns>0</PctUturns>
                   <PTXL>0</PTXL>
                 </Traffic>
@@ -1075,6 +1088,7 @@
               <TotalDelayVehSec>0</TotalDelayVehSec>
               <ControlDelay>34.27137</ControlDelay>
               <LOS>D</LOS>
+              <LosValue>3.93</LosValue>
             </ResultsRbt>
           </ApproachData>
           <ApproachData>
@@ -1248,6 +1262,7 @@
               <TotalDelayVehSec>0</TotalDelayVehSec>
               <ControlDelay>31.3948288</ControlDelay>
               <LOS>D</LOS>
+              <LosValue>3.64</LosValue>
             </ResultsRbt>
           </ApproachData>
           <ApproachData>
@@ -1421,6 +1436,7 @@
               <TotalDelayVehSec>0</TotalDelayVehSec>
               <ControlDelay>18.56674</ControlDelay>
               <LOS>C</LOS>
+              <LosValue>2.36</LosValue>
             </ResultsRbt>
           </ApproachData>
           <ApproachData>
@@ -1527,6 +1543,7 @@
               <TotalDelayVehSec>0</TotalDelayVehSec>
               <ControlDelay>15.3487005</ControlDelay>
               <LOS>C</LOS>
+              <LosValue>2.03</LosValue>
             </ResultsRbt>
           </ApproachData>
         </Approaches>
@@ -1547,6 +1564,7 @@
         <LengthFt>10560</LengthFt>
         <LengthMiles>2</LengthMiles>
         <GradePct>2</GradePct>
+        <VerticalAlignClass>1</VerticalAlignClass>
         <Traffic>
           <TrafficInputData DIR="AnalysisDir">
             <DemandVehHr>600</DemandVehHr>
@@ -1610,7 +1628,7 @@
         <Info>
           <From />
           <To />
-          <CrossStreetName />
+          <CrossStreetName>Second Ave</CrossStreetName>
           <Period>AMPeak</Period>
           <FromNode>0</FromNode>
           <ToNode>0</ToNode>
@@ -1622,6 +1640,7 @@
         <LengthFt>1000</LengthFt>
         <LengthMiles>0.189393938</LengthMiles>
         <GradePct>0</GradePct>
+        <VerticalAlignClass>0</VerticalAlignClass>
         <Traffic>
           <TrafficInputData DIR="AnalysisDir">
             <DemandVehHr>600</DemandVehHr>
@@ -1760,6 +1779,7 @@
                   <QueueLengthVeh95pct>14.3567924</QueueLengthVeh95pct>
                   <ControlDelay>52.2724533</ControlDelay>
                   <LOS>F</LOS>
+                  <LosValue>5</LosValue>
                 </Results>
               </LaneGroupData>
             </LaneGroups>
@@ -1863,6 +1883,7 @@
                   <QueueLengthVeh95pct>1.12013435</QueueLengthVeh95pct>
                   <ControlDelay>12.6645746</ControlDelay>
                   <LOS>B</LOS>
+                  <LosValue>1.53</LosValue>
                 </Results>
               </LaneGroupData>
             </LaneGroups>
@@ -1966,6 +1987,7 @@
                   <QueueLengthVeh95pct>4.88897657</QueueLengthVeh95pct>
                   <ControlDelay>19.4456177</ControlDelay>
                   <LOS>C</LOS>
+                  <LosValue>2.44</LosValue>
                 </Results>
               </LaneGroupData>
             </LaneGroups>
@@ -2069,6 +2091,7 @@
                   <QueueLengthVeh95pct>0.8741922</QueueLengthVeh95pct>
                   <ControlDelay>12.20874</ControlDelay>
                   <LOS>B</LOS>
+                  <LosValue>1.44</LosValue>
                 </Results>
               </LaneGroupData>
             </LaneGroups>
@@ -2077,6 +2100,7 @@
         <ResultsIntx>
           <ControlDelay>34.0672531</ControlDelay>
           <LOS>D</LOS>
+          <LosValue>0</LosValue>
         </ResultsIntx>
       </HighwaySegmentData>
       <HighwaySegmentData xsi:type="SegmentDataTwoLaneHwy" ID="16">
@@ -2095,6 +2119,7 @@
         <LengthFt>7920</LengthFt>
         <LengthMiles>1.5</LengthMiles>
         <GradePct>2</GradePct>
+        <VerticalAlignClass>1</VerticalAlignClass>
         <Traffic>
           <TrafficInputData DIR="AnalysisDir">
             <DemandVehHr>650</DemandVehHr>
@@ -2129,7 +2154,7 @@
             <PTXL>0</PTXL>
           </TrafficInputData>
         </Traffic>
-        <DFactor>0.5217391</DFactor>
+        <DFactor>0</DFactor>
         <KFactor>0</KFactor>
         <DriverPopulationFact>0</DriverPopulationFact>
         <TwoLaneSegType>PassingConstrained</TwoLaneSegType>
